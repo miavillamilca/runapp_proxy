@@ -1,0 +1,6 @@
+runapp-proxy:
+  image: miavillamilca/2c_runapp_proxy
+  depends_on:
+    - runapp-api
+  ports:
+    - 80:80
